@@ -32,8 +32,6 @@ class mod_melem_mod_form extends moodleform_mod {
         }
         $mform->addRule('name', null, 'required', null, 'client');
         $mform->addRule('name', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
-        //intro editor
-		$this->add_intro_editor(false);
 
         //-------------------------------------------------------
         //MEDIA URLS

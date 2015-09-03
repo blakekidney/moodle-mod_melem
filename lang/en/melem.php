@@ -9,6 +9,8 @@
 
 $string['modulename'] = 'Media Element';
 $string['modulenameplural'] = 'Media Elements';
+$string['melem:addinstance'] = 'Add a new media element';
+$string['melem:view'] = 'View media element';
 $string['modulename_help'] = 'The Media Element module enables a teacher to add a video or audio clip to the course using the Media Element player.';
 $string['modulename_link'] = 'mod/melem/view';
 $string['contentheader'] = 'Content';

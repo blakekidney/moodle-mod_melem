@@ -33,7 +33,7 @@ $params = array(
     'context' => $context,
     'objectid' => $melem->id
 );
-$event = \mod_url\event\course_module_viewed::create($params);
+$event = \mod_melem\event\course_module_viewed::create($params);
 $event->add_record_snapshot('course_modules', $cm);
 $event->add_record_snapshot('course', $course);
 $event->add_record_snapshot('melem', $melem);
